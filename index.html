@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Maisha Tours & Travels</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <h1>Maisha Tours & Travels</h1>
+    <p>Creating Journeys, Crafting Memories</p>
+  </header>
+
+  <section id="services">
+    <h2>Our Services</h2>
+    <ul>
+      <li>Airport Pick-up and Drop-off</li>
+      <li>SGR Booking & Transfer</li>
+      <li>Wasini Island Tours</li>
+      <li>City Tours</li>
+      <li>Hotel Booking</li>
+      <li>Car Hire and Rentals</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>📞 Phone: <strong>+254 796 644 490</strong></p>
+    <p>🕒 24H Service Available</p>
+  </section>
+
+  <section id="photo">
+    <h2>Our Fleet</h2>
+    <img src="business-card.jpg" alt="Maisha Tours Car" />
+  </section>
+
+  <section id="booking">
+    <h2>Book a Service</h2>
+    <form action="https://formspree.io/f/mldlwwqa" method="POST">
+      <label for="name">Full Name:</label>
+      <input type="text" id="name" name="name" required />
+
+      <label for="email">Email Address:</label>
+      <input type="email" id="email" name="email" required />
+
+      <label for="phone">Phone Number:</label>
+      <input type="tel" id="phone" name="phone" required />
+
+      <label for="service">Select Service:</label>
+      <select id="service" name="service" required>
+        <option value="">--Choose one--</option>
+        <option value="airport">Airport Pick-up / Drop-off</option>
+        <option value="sgr">SGR Booking & Transfer</option>
+        <option value="wasini">Wasini Island Tour</option>
+        <option value="city">City Tour</option>
+        <option value="hotel">Hotel Booking</option>
+        <option value="car">Car Hire</option>
+      </select>
+
+      <label for="message">Message / Special Request:</label>
+      <textarea id="message" name="message" rows="4"></textarea>
+
+      <button type="submit">Submit Booking</button>
+    </form>
+
+    <div class="contact-buttons">
+      <a href="https://wa.me/254796644490" target="_blank" class="whatsapp">📱 WhatsApp Us</a>
+      <a href="https://instagram.com/YOUR_maisha-tours" target="_blank" class="instagram">📸 Instagram</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Maisha Tours & Travels. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>

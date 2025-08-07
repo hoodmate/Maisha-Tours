@@ -1,0 +1,97 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f0f4f8;
+  color: #333;
+}
+
+header {
+  background: #004466;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+h2 {
+  color: #004466;
+}
+
+section {
+  background: white;
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 800px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #ccc;
+}
+
+ul {
+  list-style-type: square;
+  padding-left: 20px;
+}
+
+img {
+  width: 100%;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form label {
+  margin-top: 10px;
+}
+
+form input, form select, form textarea {
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+form button {
+  background-color: #004466;
+  color: white;
+  padding: 12px;
+  border: none;
+  margin-top: 15px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #006699;
+}
+
+.contact-buttons {
+  margin-top: 20px;
+  display: flex;
+  gap: 15px;
+}
+
+.contact-buttons a {
+  text-decoration: none;
+  padding: 10px 15px;
+  border-radius: 6px;
+  font-weight: bold;
+  color: white;
+}
+
+.whatsapp {
+  background-color: #25d366;
+}
+
+.instagram {
+  background-color: #c13584;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #004466;
+  color: white;
+}
